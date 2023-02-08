@@ -183,6 +183,59 @@ h3:hover{
   transform: translateY(-7%);
 }
 
+.TituloProgramacion,
+.ApartadoProgramacion p{
+  color: #fff;
+}
+
+.CuadroProgramacion{
+  padding: 4px 10px;
+  margin: 10px;
+  width: 650px;
+  height: 120px;
+  background-color: #06090ef9;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+}
+
+.CajasProgramacion,
+.Lenguajes,
+.Proyectos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Lenguajes,
+.Proyectos{
+  padding: 8px 10px;
+  margin: 2px;
+  width: 100%;
+}
+.langPro{
+  margin: 0px 58px;
+}
+.langPro img:hover{
+  transition: 0.4s;
+  transform: translateY(-8%);
+}
+
+.Proyecto{
+  margin: 0px 20px;
+}
+.Proyecto p:hover{
+  transition: 0.4s;
+  transform: translateY(-8%);
+}
+.Proyectos a{
+  text-decoration: none;
+}
+
 .Cuadros{
   width: 100%;
   display: flex;
@@ -194,7 +247,7 @@ h3:hover{
   padding: 2px 1px;
   margin: 50px;
   width: 165px;
-  background-color: #06090e;
+  background-color: #161617;
   border-radius: 7px;
   box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
   box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
@@ -368,8 +421,12 @@ h3:hover{
   transition: all 300ms ease;
 }
 
-.finalFooter .grupo-1 .box .redsocial a:hover {
-  color: #a4a4a9;
+.IconoRed img{
+  margin-top: 10px;
+}
+.IconoRed img:hover{
+  transition: 0.4s;
+  transform: translateY(-8%);
 }
 
 .finalFooter .grupo-2{
@@ -403,7 +460,7 @@ h3:hover{
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-color: #1b2220fc;
+  background-color: #161617;
   position: fixed;
   left: 0;
   top: 63px;
@@ -423,7 +480,7 @@ h3:hover{
 
  .nav-menu-link:hover{
   background: none;
-  color: #77f7ea;
+  color: #90c2ff;
  }
 
  .nav-toggle{
@@ -458,6 +515,17 @@ h3:hover{
   letter-spacing: 3px;
 }
 
+.CuadroProgramacion{
+  padding: 2px 8px;
+  height: 120px;
+}
+.langPro{
+  margin: 0px 24px;
+}
+.Proyecto{
+  margin: 0px 10px;
+}
+
 .Cuadros{
   align-items: center;
   padding-left: 10px;
@@ -467,8 +535,8 @@ h3:hover{
   padding-top: 6px;
   margin: 16px;
   width: 154px;
-  height: 35px;
-  border-radius: 7px;
+  height: 34px;
+  border-radius: 6px;
  }
 
  .caja img{
@@ -485,6 +553,6 @@ h3:hover{
   width: 90%;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
-  padding: 35px 0px;
+  padding: 30px 0px;
  }
 }
