@@ -209,6 +209,7 @@ h3:hover{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .Lenguajes,
@@ -241,6 +242,7 @@ h3:hover{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .Cuadro{
@@ -346,6 +348,7 @@ h3:hover{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .AboutMe p{
@@ -523,12 +526,11 @@ h3:hover{
   margin: 0px 24px;
 }
 .Proyecto{
-  margin: 0px 10px;
+  margin: 0px 10px 4px 10px;
 }
 
 .Cuadros{
   align-items: center;
-  padding-left: 10px;
 }
 
  .Cuadro{
