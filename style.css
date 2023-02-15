@@ -552,6 +552,30 @@ h3:hover{
   max-width: 140px;
 }
 
+.FotoPresentacion{
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
+  height: 260px;
+  width: 520px;
+  background-size: cover;
+  display: flex;
+  padding-top: 240px;
+}
+
+.Cuadro1AboutMe{
+  padding: 10px 10px;
+  margin: 2px;
+  width: 100%;
+  height: 230px;
+}
+
+.MiPersona{
+  height: 430px;
+}
+
+.CuadroAboutMe{
+  margin: 10px 50px;
+}
+
  .finalFooter .grupo-1{
   width: 90%;
   grid-template-columns: repeat(1, 1fr);
