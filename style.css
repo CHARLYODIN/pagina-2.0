@@ -316,25 +316,26 @@ h3:hover{
 }
 
 .FotoPresentacion{
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1070070968581623808/IMG_20230119_205742_9884.jpg);
-  height: 360px;
-  width: 620px;
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
+  height: 460px;
+  width: 520px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 420px;
 }
 .FotoPresentacion p{
   color: #ffffff;
 }
 
 .Cuadro1AboutMe{
-  padding: 8px 10px;
+  padding: 10px 10px;
   margin: 2px;
   width: 100%;
+  height: 210px;
   background-color: #06090ef9;
   border-radius: 8px;
   box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
@@ -360,7 +361,7 @@ h3:hover{
 }
 
 .CuadroAboutMe{
-  margin: 18px 62px;
+  margin: 18px 60px;
   border-radius: 14px;
   align-items: center;
 }
