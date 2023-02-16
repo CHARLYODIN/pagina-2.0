@@ -1,62 +1,47 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
 }
 
 .logo nav-link {
-  color: rgb(0, 0, 0);
-  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-family: 'Cinzel', serif;
 }
 
 body {
   color: black;
   padding: 90px 0 0 0;
-
-  background-color: #ffffff;
-}
-
-.header a{
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
 }
 
 h1{
-  text-align: center;
-  font-size: 35px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 40px;
 }
 
 h3,
 h2,
-h5,
 h4,
+h5,
 .grupo-2 {
   font-family: 'Roboto', sans-serif;
-  color: black;
-  text-decoration: none;
 }
 
-.Cuadro h4{
-  font-family: 'Roboto', sans-serif;
-  color: #d4d9df;
-  text-decoration: none;
-}
-
-p {
+p{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
 
-.PaginaCompleta{
+.paginacompleta {
   width: 100%;
-  min-width: auto;
+  max-width: 1300px;
+  
   margin: 0 auto;
-  border: 5px black;
+  border: 5px solid;
 }
 
 .header {
-  background-color: #1213169c;
+ background-color: #1b2220af;
   height: 100px;
   position: fixed;
   width: 100%;
@@ -74,14 +59,15 @@ p {
 .nav{
   display: flex;
   justify-content: space-between;
+
   max-width: 992;
   margin: 0 auto;
 }
 
 .nav-link{
-  color: #eaebed;
+  color: #ffffff;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
 .nav-menu{
@@ -91,7 +77,7 @@ p {
 }
 
 .nav-menu-item{
-  font-size: 16px;
+  font-size: 15px;
   margin: 0 10px;
   padding-top: 10px;
   line-height: 85px;
@@ -105,12 +91,12 @@ p {
 }
 
 .nav-menu-link:hover{
-  background-color: #253049c2;
-  transition: 0.4s;
+  background-color: #01443182;
+  transition: 0.5s;
 }
 
 .nav-toggle{
-  color: #eaebed;
+  color: #ffffff;
   background: none;
   border: none;
   font-size: 30px;
@@ -118,10 +104,10 @@ p {
   line-height: 60px;
   cursor: pointer;
 
-  display: none;
+ display: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -129,10 +115,10 @@ a[name] {
   scroll-margin-top: 100px;
 }
 
-.encabezado-img{
+.encabezado-img {
   font-size: 25px;
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1069696330194227281/573755.jpg);
-  height: 752px;
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/1045912906425958410/1050530844055445534/diferencias-piel-hombre-mujer.jpg);
+  height: 500px;
   width: 100%;
   margin-top: -100px;
   background-size: cover;
@@ -140,17 +126,12 @@ a[name] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #eaebed;
+  color: rgba(255, 255, 255, 0.904);
   letter-spacing: 5px;
   text-align: center;
 }
 
-h1{
-  font-family: 'Raleway', sans-serif;
-}
-
 .Titulo{
-  font-size: 42px;
   text-shadow: 1px 1px 1px #00000068;
   text-shadow: 1px 2px 2px #00000068;
   text-shadow: 1px 3px 3px #00000068;
@@ -162,79 +143,8 @@ h1{
 
 .Titulo:hover{
   transition-duration: .8s;
-  text-shadow: 5px 5px 20px black;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-7%);
-}
-
-h3,
-h4{
-  text-shadow: 1px 1px 1px #00000068;
-  text-shadow: 1px 2px 2px #00000068;
-  text-shadow: 1px 3px 3px #00000068;
-  text-shadow: 1px 4px 4px #00000068;
-  text-shadow: 1px 5px 5px #00000068;
-  text-shadow: 1px 6px 6px #00000068;
-  text-shadow: 1px 7px 7px #00000068;
-}
-
-h3:hover{
-  transition-duration: .8s;
-  text-shadow: 5px 5px 20px black;
-  transform: translateY(-7%);
-}
-
-.TituloProgramacion,
-.ApartadoProgramacion p{
-  color: #fff;
-}
-
-.CuadroProgramacion{
-  padding: 4px 10px;
-  margin: 10px;
-  width: 650px;
-  height: 120px;
-  background-color: #06090ef9;
-  border-radius: 8px;
-  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
-  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
-  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
-  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
-  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
-}
-
-.CajasProgramacion,
-.Lenguajes,
-.Proyectos{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.Lenguajes,
-.Proyectos{
-  padding: 8px 10px;
-  margin: 2px;
-  width: 100%;
-}
-.langPro{
-  margin: 0px 58px;
-}
-.langPro img:hover{
-  transition: 0.4s;
-  transform: translateY(-8%);
-}
-
-.Proyecto{
-  margin: 0px 20px;
-}
-.Proyecto p:hover{
-  transition: 0.4s;
-  transform: translateY(-8%);
-}
-.Proyectos a{
-  text-decoration: none;
 }
 
 .Cuadros{
@@ -249,7 +159,8 @@ h3:hover{
   padding: 2px 1px;
   margin: 50px;
   width: 165px;
-  background-color: #161617;
+  background-color: #ffffffe8;
+  align-items: center;
   border-radius: 7px;
   box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
   box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
@@ -257,127 +168,108 @@ h3:hover{
   box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
   box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
   text-align: center;
-  align-items: center;
 }
 
-.miDiscord{
-  align-items: center;
-}
-
-#nombresdsc{
-  color: #141a26;
-  font-size: 16px;
-}
-
-.carouseL__contenedor{
-  position: absolute;
-  align-items: center;
-}
-
-.carousel__elemento{
-  text-align: center;
-}
-
-.carousel__anterior,
-.carousel__siguiente {
-  display: block;
-  width: 30px;
-  height: 30px;
-  border: none;
-  top: calc(50% - 35px);
-  cursor: pointer;
-  line-height: 20px;
-  text-align: center;
-  background: none;
-  color: #fff;
-  opacity: 0%;
-}
-
-.carousel__anterior:hover,
-.carousel__siguiente:hover {
-  opacity: 100%;
-}
-
-.carousel__indicador .glider-dot{
-  display: block;
-  width: 20px;
-  height: 3px;
-  background: black;
-  opacity: .2;
-  border-radius: 0;
-}
-
-.carousel__indicador .glider-dot:hover{
-  opacity: .5;
-}
-
-.carousel__indicador .glider-dot.active{
-  opacity: 1;
-}
-
-.FotoPresentacion{
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
-  height: 460px;
-  width: 520px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 420px;
-}
-.FotoPresentacion p{
-  color: #ffffff;
-}
-
-.Cuadro1AboutMe{
-  padding: 10px 10px;
-  margin: 2px;
+.catalogo1 {
   width: 100%;
-  height: 210px;
-  background-color: #06090ef9;
-  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.caja img{
+  height: 165px;
+  width: 175px;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgba(51, 51, 51, 0.122);
+}
+
+.caja img:hover{
   box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
   box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
   box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
   box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
   box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+  transition: 0.7s;
+  transform: translateY(-7%);
 }
 
-.CajaAboutMe{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.caja{
+  margin: 25px;
+  max-width: 165px;
 }
 
-.AboutMe p{
-  color: #eaebedda;
-}
-.AboutMe h3{
-  color: #ffffffed;
+.caja p{
   text-align: center;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.CuadroAboutMe{
-  margin: 18px 60px;
-  border-radius: 14px;
+.caja h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.Precio h3{
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px #4efc2bf8;
+  font-weight: bold;
+}
+
+.Pedirtexto{
+  color: #000000;
+}
+
+.Pedirenlace{
+  text-decoration: none;
+}
+
+.PedirProducto{
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 165px;
+  background-color: #07d3b180;
   align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px rgba(108, 108, 108, 0.276);
 }
 
-.finalFooter{
-  width: 100%;
-  background-color: #141a26;
-  color: #eaebed;
+.PedirProducto:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5%);
 }
 
-.finalFooter h2{
+.Precio{
+  color: #38b91f;
+}
+
+.MasCaro{
+  color: rgb(200, 20, 20);
+}
+
+.Plataformas{
+  text-decoration: none;
   color: #ffffff;
 }
 
-.finalFooter p{
-  color: #ffffffe4;
+.Plataformas:hover{
+  background-color: #3d8666a6;
+  transition: 0.2s;
+  border-radius: 5px;
+  padding: 0px 6px;
+}
+
+.IconoRed:hover{
+  background-color: #3d8666a6;
+  border-radius: 100px;
+  transition: 2s;
+} 
+
+.finalFooter {
+  width: 100%;
+  background-color: #0f0f0ff8;
+  color: #ffffff;
 }
 
 .finalFooter .grupo-1{
@@ -410,11 +302,11 @@ h3:hover{
 }
 
 .finalFooter .grupo-1 .cajafooter p{
-  color: #ffffff;
+  color: #efefef;
   margin-bottom: 10px;
 }
 
-.finalFooter .grupo-1 .box .redsocial a{
+.finalFooter .grupo-1 .redsocial a{
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -425,19 +317,15 @@ h3:hover{
   transition: all 300ms ease;
 }
 
-.IconoRed img{
-  margin-top: 10px;
-}
-.IconoRed img:hover{
-  transition: 0.4s;
-  transform: translateY(-8%);
+.finalFooter .grupo-1 .redsocial a:hover {
+  color: #66fdbc94;
 }
 
 .finalFooter .grupo-2{
-  background-color: #06090e63;
+  background-color: #1523366d;
   padding: 15px 10px;
   text-align: center;
-  color: #ffffffda;
+  color: #fff;
 }
 
 .finalFooter .grupo-2 small{
@@ -464,7 +352,7 @@ h3:hover{
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-color: #161617;
+  background-color: #1b2220fc;
   position: fixed;
   left: 0;
   top: 63px;
@@ -484,7 +372,7 @@ h3:hover{
 
  .nav-menu-link:hover{
   background: none;
-  color: #90c2ff;
+  color: #77f7ea;
  }
 
  .nav-toggle{
@@ -513,33 +401,18 @@ h3:hover{
 
  .encabezado-img{
   font-size: 20px;
-  height: 380px;
+  height: 280px;
   width: 100%;
   margin-top: -60px;
   letter-spacing: 3px;
 }
 
-.CuadroProgramacion{
-  padding: 2px 8px;
-  height: 120px;
-}
-.langPro{
-  margin: 0px 24px;
-}
-.Proyecto{
-  margin: 0px 10px 4px 10px;
-}
-
-.Cuadros{
-  align-items: center;
-}
-
  .Cuadro{
   padding-top: 6px;
-  margin: 16px;
-  width: 154px;
-  height: 34px;
-  border-radius: 6px;
+  margin: 10px;
+  width: 140px;
+  height: 35px;
+  border-radius: 7px;
  }
 
  .caja img{
@@ -552,34 +425,14 @@ h3:hover{
   max-width: 140px;
 }
 
-.FotoPresentacion{
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
-  height: 260px;
-  width: 520px;
-  background-size: cover;
-  display: flex;
-  padding-top: 240px;
-}
-
-.Cuadro1AboutMe{
-  padding: 10px 10px;
-  margin: 2px;
-  width: 100%;
-  height: 230px;
-}
-
-.MiPersona{
-  height: 430px;
-}
-
-.CuadroAboutMe{
-  margin: 10px 50px;
+.PedirProducto{
+  width: 140px;
 }
 
  .finalFooter .grupo-1{
   width: 90%;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
-  padding: 30px 0px;
+  padding: 35px 0px;
  }
 }
