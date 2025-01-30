@@ -131,7 +131,8 @@ a[name] {
 
 .encabezado-img{
   font-size: 25px;
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1069696330194227281/573755.jpg);
+  background-image: url(./img/fondo.jpg);
+  /*background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://www.vecteezy.com/photo/11871914-virtual-reality-animation-glowing-luminance-laser-background-abstract-technology-horizontal-line-purple-light-glow-galaxy-geometric-internet-80s-style-wallpaper);*/
   height: 752px;
   width: 100%;
   margin-top: -100px;
@@ -316,7 +317,7 @@ h3:hover{
 }
 
 .FotoPresentacion{
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url();
   height: 460px;
   width: 520px;
   background-size: cover;
@@ -553,7 +554,7 @@ h3:hover{
 }
 
 .FotoPresentacion{
-  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1207059383889170482/proximamente.png?ex=65de44a7&is=65cbcfa7&hm=924d24d7f4921831593e237553198f1323e5194ef2fa953c6a6baba66ef26235&);
   height: 260px;
   width: 520px;
   background-size: cover;
